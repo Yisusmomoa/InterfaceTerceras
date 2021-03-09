@@ -186,3 +186,174 @@ width: 300px;
   padding: 50px;
   margin: 20px;
 */
+
+
+/* carousel*/
+
+html,body{
+    /*
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    */
+}
+
+
+#Novedades .slider{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+
+    max-width: 1150px;
+    display: flex;
+}
+
+#Novedades .slider .cards{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 0 10px;
+}
+
+#Novedades .slider .cards .img {
+    height: 200px;
+    width: 100%;
+}
+#Novedades .slider .cards .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#Novedades .slider .cards .content{
+    padding: 10px 20px;
+
+}
+
+#Novedades .cards .content .title{
+   font-size: 25px;
+   font-weight: 600;
+
+}
+
+#Novedades .cards .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+
+ }
+
+ #Novedades .cards .content p{
+     text-align: justify;
+     margin: 10px 0;
+
+ }
+
+
+ #Novedades .cards .content .btn{
+     display: block;
+     text-align: left;
+     margin: 10px 0;
+ }
+
+ #Novedades .cards .content .btn button{
+     background: #e74c3c;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-size: 17px;
+     padding: 5px 8px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+
+ #Novedades .cards .content .btn button:hover{
+     transform: scale(0.9);
+
+ }
+
+ 
+
+ 
+ /*Cards*/
+ /*BestSellers*/
+ #BestSellers{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+
+    max-width: 1150px;
+    display: flex;
+ }
+
+ #BestSellers .cards{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 0 10px;
+}
+
+#BestSellers .cards .img {
+    height: 150px;
+    width: 100%;
+}
+#BestSellers .cards .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#BestSellers .cards .content{
+    padding: 10px 20px;
+
+}
+
+#BestSellers .cards .content .title{
+   font-size: 25px;
+   font-weight: 600;
+
+}
+
+#BestSellers .cards .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+
+ }
+
+ #BestSellers .cards .content p{
+     text-align: justify;
+     margin: 10px 0;
+
+ }
+
+
+ #BestSellers .cards .content .btn{
+     display: block;
+     text-align: left;
+     margin: 10px 0;
+ }
+
+ #BestSellers .cards .content .btn button{
+     background: #e74c3c;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-size: 17px;
+     padding: 5px 8px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+
+ #BestSellers .cards .content .btn button:hover{
+     transform: scale(0.9);
+
+ }
