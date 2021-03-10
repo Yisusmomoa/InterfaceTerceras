@@ -62,6 +62,22 @@
   background-color: #979797;
 }
 
+#SeccionCarrito{
+    /*box*/
+    width: 100px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    position:absolute;
+    right:150px;
+    top: 0;
+    
+}
+#SeccionCarrito a  {
+    text-decoration: none;
+    color: black;
+}
 
 #Busqueda {
   bottom: 85px;
@@ -71,12 +87,25 @@
  }
 
  #Busqueda a{
+     
    position:absolute;
    top: 30px;
     font-size: 10px;
+    text-decoration: none;
+    color: black;
+    /*box*/
+    width: 100px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
+    background-color: #f1f1f1;
 }
 /*
 https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
+https://www.computerhope.com/issues/ch000074.htm
+https://www.arkaitzgarro.com/css2/capitulo-5.html
+
+
 */
 
   *{
@@ -139,6 +168,11 @@ https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
   cursor: pointer;
 }
 
+
+
+/*CUERPO*/
+
+
 #Novedades{
     width: auto;
   border: 3px solid rgb(0, 0, 0);
@@ -171,13 +205,6 @@ https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
 
 
 
-footer{
-    width: auto;
-    border: 3px solid rgb(0, 0, 0);
-    padding: 100px;
-    margin: 20px;
-    background-color: aqua;
-}
 
 
 /*
@@ -334,7 +361,6 @@ html,body{
 
  }
 
-
  #BestSellers .cards .content .btn{
      display: block;
      text-align: left;
@@ -357,3 +383,286 @@ html,body{
      transform: scale(0.9);
 
  }
+
+
+  /*PopularCategories*/
+
+
+  #PopularCategories{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+
+    max-width: 1150px;
+    display: flex;
+ }
+
+ #PopularCategories .cards{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 0 10px;
+}
+
+#PopularCategories .cards .img {
+    height: 150px;
+    width: 100%;
+}
+#PopularCategories .cards .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#PopularCategories .cards .content{
+    padding: 10px 20px;
+
+}
+
+#PopularCategories .cards .content .title{
+   font-size: 25px;
+   font-weight: 600;
+
+}
+
+#PopularCategories .cards .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+
+ }
+
+ #PopularCategories .cards .content p{
+     text-align: justify;
+     margin: 10px 0;
+
+ }
+
+
+ #PopularCategories .cards .content .btn{
+     display: block;
+     text-align: left;
+     margin: 10px 0;
+ }
+
+ #PopularCategories .cards .content .btn button{
+     background: #e74c3c;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-size: 17px;
+     padding: 5px 8px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+
+ #PopularCategories .cards .content .btn button:hover{
+     transform: scale(0.9);
+
+ }
+
+
+
+
+/*PopularArtist*/
+
+#PopularArtist{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+
+    max-width: 1150px;
+    display: flex;
+ }
+
+ #PopularArtist .cards{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 0 10px;
+}
+
+#PopularArtist .cards .img {
+    height: 150px;
+    width: 100%;
+}
+#PopularArtist .cards .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#PopularArtist .cards .content{
+    padding: 10px 20px;
+
+}
+
+#PopularArtist .cards .content .title{
+   font-size: 25px;
+   font-weight: 600;
+
+}
+
+#PopularArtist .cards .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+
+ }
+
+ #PopularArtist .cards .content p{
+     text-align: justify;
+     margin: 10px 0;
+
+ }
+
+
+ #PopularArtist .cards .content .btn{
+     display: block;
+     text-align: left;
+     margin: 10px 0;
+ }
+
+ #PopularArtist .cards .content .btn button{
+     background: #e74c3c;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-size: 17px;
+     padding: 5px 8px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+
+ #PopularArtist .cards .content .btn button:hover{
+     transform: scale(0.9);
+
+ }
+
+
+
+
+ /*Footer*/
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+   
+}
+
+.container-footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.Row-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-1{
+    max-width: 400px;
+}
+
+.Footer-1 h1{
+    font-size: 22px;
+}
+
+.Footer-1 p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.Footer-2{
+    max-width: 400px;
+}
+
+.Footer-2 h1{
+    font-size: 22px;
+}
+
+.Socaial-Row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.Socaial-Row a{
+    width: 36px;
+    height: 36px;
+    color: white;
+}
+
+.Socaial-Row label{
+    margin-left: 5px;
+    color: #c7c7c7;
+}
+
+.Socaial-Row label:hover{
+    color: #47b1fd;
+}
+
+.Footer-3{
+    max-width: 400px;
+}
+
+.Footer-3 h1{
+    font-size: 22px;
+}
+
+.Contact-Row1{
+    margin-top: 20px;
+}
+
+.Contact-Row1 a{
+  color: white;
+  width: 36px;
+  height: 36px;
+}
+
+.Contact-Row1 label{
+    margin-top: 10px;
+     margin-left: 20px;
+     max-width: 120px;
+  }
+
+.container-botfooter{
+  max-width: 100%;
+  background: #101010;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.Copyright {
+ display: flex;
+}
+
+.Copyright a{
+ text-decoration: none;
+ padding-right: 5px;
+ color: white;
+}
+
+.infoFooter a{
+    color: #c7c7c7;
+}
+
+.infoFooter a:hover{
+    color: #47b1fd;
+}
+
+.nav-Logo:hover {
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+}
