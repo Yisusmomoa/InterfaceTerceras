@@ -202,6 +202,179 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 .CabeceraProductos .ordenarportuptm select{
    
 }
+
+
+
+
+
+
+
+#PopularCategories{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+
+    max-width: 1150px;
+    display: flex;
+ }
+
+ #PopularCategories .cards{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 0 10px;
+}
+
+#PopularCategories .cards .img {
+    height: 150px;
+    width: 100%;
+}
+#PopularCategories .cards .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#PopularCategories .cards .content{
+    padding: 10px 20px;
+
+}
+
+#PopularCategories .cards .content .title{
+   font-size: 25px;
+   font-weight: 600;
+
+}
+
+#PopularCategories .cards .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+
+ }
+
+ #PopularCategories .cards .content p{
+     text-align: justify;
+     margin: 10px 0;
+
+ }
+
+
+ #PopularCategories .cards .content .btn{
+     display: block;
+     text-align: left;
+     margin: 10px 0;
+ }
+
+ #PopularCategories .cards .content .btn button{
+     background: #e74c3c;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-size: 17px;
+     padding: 5px 8px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+
+ #PopularCategories .cards .content .btn button:hover{
+     transform: scale(0.9);
+
+ }
+
+
+
+
+#Productos{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+
+    max-width: 1150px;
+    display: flex;
+ }
+
+ #Productos .cards{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 0 10px;
+}
+
+#Productos .cards .img {
+    height: 150px;
+    width: 100%;
+}
+#Productos .cards .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#Productos .cards .content{
+    padding: 10px 20px;
+
+}
+
+#Productos .cards .content .title{
+   font-size: 25px;
+   font-weight: 600;
+
+}
+
+#Productos .cards .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+
+ }
+
+ #Productos .cards .content p{
+     text-align: justify;
+     margin: 10px 0;
+
+ }
+
+
+ #Productos .cards .content .btn{
+     display: block;
+     text-align: left;
+     margin: 10px 0;
+ }
+
+ #Productos .cards .content .btn button{
+     background: #e74c3c;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-size: 17px;
+     padding: 5px 8px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+
+ #Productos .cards .content .btn button:hover{
+     transform: scale(0.9);
+
+ }
+
+
+
+
+
+
+
+
+
 /*footer*/
 
 
