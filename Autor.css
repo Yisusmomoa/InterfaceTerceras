@@ -1,4 +1,3 @@
-
 /*NavBar*/
 
 .dropbtn {
@@ -168,143 +167,41 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   cursor: pointer;
 }
 
+/*CUERPO*/
 
-
-/*Cuerpo*/
-
-.InfoProducto .texto{
-background-color:rgb(173, 173, 173);
-width: 50%;
-position:absolute;
-left:30%;
-top: 3%;
-border-radius: 5px;
-
+.Todo .InfoAutor>img{
+    margin: 10px;
+    margin-left: 10px;
 }
 
-.InfoProducto div.texto a{
-text-decoration: none;
-color: black
+.CabeceraProductos{
+    background-color:#b8b8b8;
+}
+.CabeceraProductos a{
+    text-decoration: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
+}
+.CabeceraProductos h5{
+    display: inline;
 }
 
-.InfoProducto div.texto #btnAddCarr button{
-  background-color: #4b4b4b; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.CabeceraProductos a:hover{
+    color: rgb(177, 177, 177);
+}
+.CabeceraProductos .ordenarportuptm h6{
+    display: inline;
+    position: relative;
 }
 
-
-
-
-
-.InfoextraProducto{
-   /*box*/
-   width: 50%;
-   border: 1px solid black;
-   padding: 5px;
-   margin: 5px;
-  
-}
-.InfoextraProducto a{
-  text-decoration: none;
-color: black
+.CabeceraProductos .ordenarportuptm {
+    text-align: right;
+    position: relative;
+    bottom: 20px;
 }
 
-.InfoextraProducto .cabecera>a>h4{
-  text-align: center;
-  margin: 3px;
-  margin-left: 70px;
-  display:inline-block;
+.CabeceraProductos .ordenarportuptm select{
+   
 }
-
-
-/*productos similares*/
-
-#ProductosSimilares{
-  display: grid;
-  height: 100%;
-  place-items: center;
-  text-align: center;
-  background-color: #f2f2f2;
-
-  max-width: 1150px;
-  display: flex;
-}
-
-#ProductosSimilares .cards{
-  background-color: rgb(255, 255, 255);
-  flex: 1;
-  margin: 0 10px;
-}
-
-#ProductosSimilares .cards .img {
-  height: 150px;
-  width: 100%;
-}
-#ProductosSimilares .cards .img img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-#ProductosSimilares .cards .content{
-  padding: 10px 20px;
-
-}
-
-#ProductosSimilares .cards .content .title{
- font-size: 25px;
- font-weight: 600;
-
-}
-
-#ProductosSimilares .cards .content .sub-title{
-  font-size: 20px;
-  font-weight: 600;
-  color: #e74c3c;
-  line-height: 20px;
-
-}
-
-#ProductosSimilares .cards .content p{
-   text-align: justify;
-   margin: 10px 0;
-
-}
-
-
-#ProductosSimilares .cards .content .btn{
-   display: block;
-   text-align: left;
-   margin: 10px 0;
-}
-
-#ProductosSimilares .cards .content .btn button{
-   background: #e74c3c;
-   color: #fff;
-   border: none;
-   outline: none;
-   font-size: 17px;
-   padding: 5px 8px;
-   border-radius: 5px;
-   cursor: pointer;
-   transition: 0.2s;
-}
-
-#ProductosSimilares .cards .content .btn button:hover{
-   transform: scale(0.9);
-
-}
-
-
-
-
-
 /*footer*/
 
 
