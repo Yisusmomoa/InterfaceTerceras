@@ -40,11 +40,14 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+    border-radius: 1px;
   } 
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background-color: #979797;
+    background-color: #96BFFF;
+    border-radius: 5px;
+    border-style:hidden;
   }
 
 
@@ -59,19 +62,25 @@
     cursor: pointer;
 }
 #EjNav a:hover {
-  background-color: #979797;
+  background-color: #96BFFF;
+  
+  border-radius: 5px;
+  border-style:hidden;
+
+  /*
+   border-style:groove;
+     border-style:hidden;
+  */
 }
 
+
+
 #SeccionCarrito{
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+   
     background-color: #f1f1f1;
     position:absolute;
     right:150px;
-    top: 0;
+    top: 80%;
     
 }
 #SeccionCarrito a  {
@@ -114,7 +123,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   
   }
   body{
-   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
   }
   
   nav{
@@ -122,9 +131,10 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: rgb(177, 177, 177);
+   background-color: #f0f0f0;
     top: 0px;
     color: rgb(2, 1, 1);
+    border-radius: 15px;
   }
   
 
@@ -135,7 +145,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  rgb(228, 228, 228);
+    background:  #e4e4e4;
   }
 
   .Paste{
@@ -157,15 +167,15 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     position: absolute;
     top: 0;
     left: 90%;
-
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+    padding: 3px;
+    margin: 3px;
+   
 }
 .InfoUsuarioNav:hover{
   cursor: pointer;
+   /*box*/
+   width: 100px;
+   border: 3px solid #6D98DE;
 }
 
 
@@ -203,7 +213,16 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     margin: 20px;
 }
 
+/*
 
+#3580FA
+#96BFFF
+#6D98DE
+#916F2A
+#DEB96D
+
+
+*/
 
 
 
@@ -227,7 +246,9 @@ html,body{
     */
 }
 
-
+#Novedades{
+    background-color: #e7e7e7;
+}
 #Novedades .slider{
     display: grid;
     height: 100%;
@@ -257,19 +278,19 @@ html,body{
 
 #Novedades .slider .cards .content{
     padding: 10px 20px;
-
+    
 }
 
 #Novedades .cards .content .title{
    font-size: 25px;
    font-weight: 600;
-
+   color: #6D98DE;
 }
 
 #Novedades .cards .content .sub-title{
     font-size: 20px;
     font-weight: 600;
-    color: #e74c3c;
+    color: #6D98DE;
     line-height: 20px;
 
  }
@@ -288,7 +309,7 @@ html,body{
  }
 
  #Novedades .cards .content .btn button{
-     background: #e74c3c;
+     background: #3580FA;
      color: #fff;
      border: none;
      outline: none;
@@ -305,8 +326,43 @@ html,body{
  }
 
  
+ #Novedades .cards .content .title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
+#Novedades .cards .content .sub-title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
 
- 
+.Todo a>h3{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.Todo .cabecera:hover{
+    background-color: #96BFFF;
+    border-radius: 5px;
+}
+
+.Todo .cabecera2:hover{
+    background-color: #96BFFF;
+    border-radius: 5px;
+}
+
+.Todo .cabecera3:hover{
+    background-color: #96BFFF;
+    border-radius: 5px;
+}
+
+.Todo .cabecera4:hover{
+    background-color: #96BFFF;
+    border-radius: 5px;
+}
+
  /*Cards*/
  /*BestSellers*/
  #BestSellers{
@@ -344,13 +400,13 @@ html,body{
 #BestSellers .cards .content .title{
    font-size: 25px;
    font-weight: 600;
-
+   color: #6D98DE;
 }
 
 #BestSellers .cards .content .sub-title{
     font-size: 20px;
     font-weight: 600;
-    color: #e74c3c;
+    color: #6D98DE;
     line-height: 20px;
 
  }
@@ -368,7 +424,7 @@ html,body{
  }
 
  #BestSellers .cards .content .btn button{
-     background: #e74c3c;
+    background: #3580FA;
      color: #fff;
      border: none;
      outline: none;
@@ -384,6 +440,16 @@ html,body{
 
  }
 
+ #BestSellers .cards .content .title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
+#BestSellers .cards .content .sub-title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
 
   /*PopularCategories*/
 
@@ -423,13 +489,13 @@ html,body{
 #PopularCategories .cards .content .title{
    font-size: 25px;
    font-weight: 600;
-
+   color: #6D98DE;
 }
 
 #PopularCategories .cards .content .sub-title{
     font-size: 20px;
     font-weight: 600;
-    color: #e74c3c;
+    color: #6D98DE;
     line-height: 20px;
 
  }
@@ -448,7 +514,7 @@ html,body{
  }
 
  #PopularCategories .cards .content .btn button{
-     background: #e74c3c;
+    background: #3580FA;
      color: #fff;
      border: none;
      outline: none;
@@ -465,6 +531,16 @@ html,body{
  }
 
 
+ #PopularCategories .cards .content .title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
+#PopularCategories .cards .content .sub-title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
 
 
 /*PopularArtist*/
@@ -504,13 +580,13 @@ html,body{
 #PopularArtist .cards .content .title{
    font-size: 25px;
    font-weight: 600;
-
+   color: #6D98DE;
 }
 
 #PopularArtist .cards .content .sub-title{
     font-size: 20px;
     font-weight: 600;
-    color: #e74c3c;
+    color: #6D98DE;
     line-height: 20px;
 
  }
@@ -529,7 +605,7 @@ html,body{
  }
 
  #PopularArtist .cards .content .btn button{
-     background: #e74c3c;
+    background: #3580FA;
      color: #fff;
      border: none;
      outline: none;
@@ -545,6 +621,17 @@ html,body{
 
  }
 
+
+ #PopularArtist .cards .content .title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
+#PopularArtist .cards .content .sub-title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
 
 
 
