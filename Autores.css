@@ -1,5 +1,4 @@
-
-
+/*NavBar*/
 
 .dropbtn {
     background-color: #ffffff;
@@ -40,14 +39,11 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
-    border-radius: 1px;
   } 
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background-color: #96BFFF;
-    border-radius: 5px;
-    border-style:hidden;
+    background-color: #979797;
   }
 
 
@@ -62,25 +58,19 @@
     cursor: pointer;
 }
 #EjNav a:hover {
-  background-color: #96BFFF;
-  
-  border-radius: 5px;
-  border-style:hidden;
-
-  /*
-   border-style:groove;
-     border-style:hidden;
-  */
+  background-color: #979797;
 }
 
-
-
 #SeccionCarrito{
-   
+    /*box*/
+    width: 100px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
     background-color: #f1f1f1;
     position:absolute;
     right:150px;
-    top: 80%;
+    top: 0;
     
 }
 #SeccionCarrito a  {
@@ -123,7 +113,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   
   }
   body{
-   background-color: #ffffff;
+   background-color: rgb(255, 255, 255);
   }
   
   nav{
@@ -131,10 +121,9 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: #f0f0f0;
+   background-color: rgb(177, 177, 177);
     top: 0px;
     color: rgb(2, 1, 1);
-    border-radius: 15px;
   }
   
 
@@ -145,7 +134,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  #e4e4e4;
+    background:  rgb(228, 228, 228);
   }
 
   .Paste{
@@ -167,100 +156,58 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     position: absolute;
     top: 0;
     left: 90%;
-    padding: 3px;
-    margin: 3px;
-   
+
+    /*box*/
+    width: 100px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
 }
 .InfoUsuarioNav:hover{
   cursor: pointer;
-   /*box*/
-   width: 100px;
-   border: 3px solid #6D98DE;
 }
 
 /*CUERPO*/
+.Autores{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  background-color: #f2f2f2;
 
-
-#Productos{
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: grid;
-    height: 100%;
-    place-items: center;
-    text-align: center;
-    background-color: #f2f2f2;
-
-    max-width: 1150px;
-    display: flex;
- }
-
- #Productos .cards{
-    background-color: rgb(255, 255, 255);
-    flex: 1;
-    margin: 0 10px;
+  max-width: 1150px;
+  display: flex;
 }
 
-#Productos .cards .img {
-    height: 150px;
-    width: 100%;
-}
-#Productos .cards .img img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.Autores .cards{
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+  margin: 0 10px;
 }
 
-#Productos .cards .content{
-    padding: 10px 20px;
-
+.Autores .cards .img {
+  height: 150px;
+  width: 100%;
+}
+.Autores .cards .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-#Productos .cards .content .title{
-   font-size: 25px;
-   font-weight: 600;
+.Autores .cards .content{
+  padding: 10px 20px;
 
 }
 
-#Productos .cards .content .sub-title{
-    font-size: 20px;
-    font-weight: 600;
-    color: #e74c3c;
-    line-height: 20px;
+.Autores .cards .content .title{
+ font-size: 25px;
+ font-weight: 600;
 
- }
-
- #Productos .cards .content p{
-     text-align: justify;
-     margin: 10px 0;
-
- }
-
-
- #Productos .cards .content .btn{
-     display: block;
-     text-align: left;
-     margin: 10px 0;
- }
-
- #Productos .cards .content .btn button{
-     background: #e74c3c;
-     color: #fff;
-     border: none;
-     outline: none;
-     font-size: 17px;
-     padding: 5px 8px;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: 0.2s;
- }
-
- #Productos .cards .content .btn button:hover{
-     transform: scale(0.9);
-
- }
-
-
+}
 
 
 /*Paginación*/
@@ -296,9 +243,17 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 
 
 
- /*Footer*/
 
- footer{
+
+
+
+
+
+/*footer*/
+
+
+
+footer{
     width: 100%;
     background: #202020;
     color: white;
