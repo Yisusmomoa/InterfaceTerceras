@@ -76,7 +76,6 @@
 
 
 #SeccionCarrito{
-   
     background-color: #f1f1f1;
     position:absolute;
     right:150px;
@@ -145,7 +144,8 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  #e4e4e4;
+    background:  #c5cddd;
+    /*background:  #f8e2e2c0;*/
   }
 
   .Paste{
@@ -176,6 +176,33 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
    /*box*/
    width: 100px;
    border: 3px solid #6D98DE;
+}
+
+
+/*Login y signup*/
+.BotonLogin .btn{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    position: absolute;
+    right: 0%;
+}
+
+.BotonLogin .btn button{
+    background: #3580FA;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.BotonLogin .btn button:hover{
+    transform: scale(0.9);
+    background-color: #96BFFF;
 }
 
 

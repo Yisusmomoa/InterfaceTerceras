@@ -43,10 +43,11 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background-color: #979797;
+    background-color: #96BFFF;
+    border-radius: 5px;
+    border-style:hidden;
   }
-
-
+ 
 
 #EjNav> a{
   text-decoration: none;
@@ -58,19 +59,17 @@
     cursor: pointer;
 }
 #EjNav a:hover {
-  background-color: #979797;
+    background-color: #96BFFF;
+  
+    border-radius: 5px;
+    border-style:hidden;
 }
 
 #SeccionCarrito{
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
     background-color: #f1f1f1;
     position:absolute;
     right:150px;
-    top: 0;
+    top: 80%;
     
 }
 #SeccionCarrito a  {
@@ -113,7 +112,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   
   }
   body{
-   background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
   }
   
   nav{
@@ -121,12 +120,14 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: rgb(177, 177, 177);
+   background-color: #f0f0f0;
     top: 0px;
     color: rgb(2, 1, 1);
+    border-radius: 15px;
   }
   
 
+  
   article{
     border-radius: 10px;
     position: absolute;
@@ -134,7 +135,8 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  rgb(228, 228, 228);
+    background:  #c5cddd;
+    /*background:  #f8e2e2c0;*/
   }
 
   .Paste{
@@ -156,16 +158,48 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     position: absolute;
     top: 0;
     left: 90%;
-
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+    padding: 3px;
+    margin: 3px;
+   
 }
 .InfoUsuarioNav:hover{
   cursor: pointer;
+   /*box*/
+   width: 100px;
+   border: 3px solid #6D98DE;
 }
+
+
+/*Login y signup*/
+.BotonLogin .btn{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    position: absolute;
+    right: 0%;
+}
+
+.BotonLogin .btn button{
+    background: #3580FA;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.BotonLogin .btn button:hover{
+    transform: scale(0.9);
+    background-color: #96BFFF;
+}
+
+
+
+
+
 
 /*CUERPO*/
 
@@ -175,7 +209,8 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 }
 
 .CabeceraProductos{
-    background-color:#b8b8b8;
+    background-color: #c4c4c459;
+    border-radius: 5px;
 }
 .CabeceraProductos a{
     text-decoration: rgb(0, 0, 0);
@@ -202,88 +237,6 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 .CabeceraProductos .ordenarportuptm select{
    
 }
-
-
-
-
-
-
-
-#PopularCategories{
-    display: grid;
-    height: 100%;
-    place-items: center;
-    text-align: center;
-    background-color: #f2f2f2;
-
-    max-width: 1150px;
-    display: flex;
- }
-
- #PopularCategories .cards{
-    background-color: rgb(255, 255, 255);
-    flex: 1;
-    margin: 0 10px;
-}
-
-#PopularCategories .cards .img {
-    height: 150px;
-    width: 100%;
-}
-#PopularCategories .cards .img img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-#PopularCategories .cards .content{
-    padding: 10px 20px;
-
-}
-
-#PopularCategories .cards .content .title{
-   font-size: 25px;
-   font-weight: 600;
-
-}
-
-#PopularCategories .cards .content .sub-title{
-    font-size: 20px;
-    font-weight: 600;
-    color: #e74c3c;
-    line-height: 20px;
-
- }
-
- #PopularCategories .cards .content p{
-     text-align: justify;
-     margin: 10px 0;
-
- }
-
-
- #PopularCategories .cards .content .btn{
-     display: block;
-     text-align: left;
-     margin: 10px 0;
- }
-
- #PopularCategories .cards .content .btn button{
-     background: #e74c3c;
-     color: #fff;
-     border: none;
-     outline: none;
-     font-size: 17px;
-     padding: 5px 8px;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: 0.2s;
- }
-
- #PopularCategories .cards .content .btn button:hover{
-     transform: scale(0.9);
-
- }
 
 
 
@@ -324,15 +277,15 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 }
 
 #Productos .cards .content .title{
-   font-size: 25px;
-   font-weight: 600;
-
+    font-size: 25px;
+    font-weight: 600;
+    color: #6D98DE;
 }
 
 #Productos .cards .content .sub-title{
     font-size: 20px;
     font-weight: 600;
-    color: #e74c3c;
+    color: #6D98DE;
     line-height: 20px;
 
  }
@@ -351,15 +304,15 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
  }
 
  #Productos .cards .content .btn button{
-     background: #e74c3c;
-     color: #fff;
-     border: none;
-     outline: none;
-     font-size: 17px;
-     padding: 5px 8px;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: 0.2s;
+    background: #3580FA;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
  }
 
  #Productos .cards .content .btn button:hover{
@@ -369,8 +322,42 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 
 
 
+ #Productos .cards .content .title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
+#Productos .cards .content .sub-title:hover{
+    color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+/*Paginación*/
 
 
+
+  .pagination a {
+    font-size: 20px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    position:relative;
+    left: 35%;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color:#6D98DE;}
+  
+  
 
 
 

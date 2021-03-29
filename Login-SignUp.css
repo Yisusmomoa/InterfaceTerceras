@@ -42,7 +42,9 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background-color: #979797;
+    background-color: #96BFFF;
+    border-radius: 5px;
+    border-style:hidden;
   }
 
 
@@ -57,25 +59,23 @@
     cursor: pointer;
 }
 #EjNav a:hover {
-  background-color: #979797;
+    background-color: #96BFFF;
+    border-radius: 5px;
+    border-style:hidden;
 }
 
 #SeccionCarrito{
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
     background-color: #f1f1f1;
     position:absolute;
     right:150px;
-    top: 0;
+    top: 80%;
     
 }
 #SeccionCarrito a  {
     text-decoration: none;
     color: black;
 }
+
 
 #Busqueda {
   bottom: 85px;
@@ -112,7 +112,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   
   }
   body{
-   background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
   }
   
   nav{
@@ -120,9 +120,10 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: rgb(177, 177, 177);
+    background-color: #f0f0f0;
     top: 0px;
     color: rgb(2, 1, 1);
+    border-radius: 15px;
   }
   
 
@@ -133,7 +134,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  rgb(228, 228, 228);
+    background:  #c5cddd;
   }
 
   .Paste{
@@ -155,17 +156,42 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     position: absolute;
     top: 0;
     left: 90%;
-
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+    padding: 3px;
+    margin: 3px;
+   
 }
 .InfoUsuarioNav:hover{
   cursor: pointer;
+   /*box*/
+   width: 100px;
+   border: 3px solid #6D98DE;
 }
 
+/*Login y signup*/
+.BotonLogin .btn{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    position: absolute;
+    right: 0%;
+}
+
+.BotonLogin .btn button{
+    background: #3580FA;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.BotonLogin .btn button:hover{
+    transform: scale(0.9);
+    background-color: #96BFFF;
+}
 
 /*CUERPO*/
 
@@ -223,18 +249,18 @@ main{
 .CajaTrasera button{
     padding: 10px 40px;
     border: 2px solidrgb(19, 0, 0);
-    background: transparent;
+    background: #3580FA;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    color: rgb(5, 0, 0);
+    color: rgb(255, 255, 255);
     outline: none;
     transition: all 300ms;
 
 }
 
 .CajaTrasera button:hover{
-    background: rgb(80, 80, 80);
+    background-color: #6D98DE;
     color:#c4c4c4;
 }
 
@@ -285,11 +311,15 @@ main{
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #7a7a7a;
+    background: #3580FA;
     color: white;
     cursor: pointer;
     outline: none;
 
+}
+
+.ContenedorLoginRegistro form button:hover{
+    transform: scale(0.9);
 }
 
 .FormularioLogin{

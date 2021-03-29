@@ -179,6 +179,36 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 }
 
 
+
+/*Login y signup*/
+.BotonLogin .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  position: absolute;
+  right: 0%;
+}
+
+.BotonLogin .btn button{
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.BotonLogin .btn button:hover{
+  transform: scale(0.9);
+  background-color: #96BFFF;
+}
+
+
+
+
 /*CUERPO*/
 table {
     
@@ -186,8 +216,7 @@ table {
     border: 1px solid #000;
  }
  th, td {
-     border-spacing: 0 !important;
-  border-collapse: collapse !important;
+     
     width: 25%;
     text-align: left;
     vertical-align: top;
