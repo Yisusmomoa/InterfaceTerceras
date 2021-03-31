@@ -18,7 +18,7 @@
 </head>
 <body>
     <nav id ="EjNav">
-        <img src="/Media/default-.jpg" alt="" width="90" height="72" id="ImgLogo">
+        <img src="/Media/Identificador.PNG" alt="" width="90" height="72" id="ImgLogo">
           <a href="#">Inicio</a>
           <a href="#">Preguntas frecuentes</a>
           <a href="#">Preguntas populares</a>
@@ -47,70 +47,64 @@
           <p>Usuario</p>
           <img src="/Media/default-.jpg" alt="" width="90" height="72">
         </div>
+         <!-- con un boolean saber si esta loogeado y saber cual mostrar-->
+         <div class="BotonLogin">
+          <div class="btn">
+              <button>SignUp</button>
+              <button>Login</button>
+          </div>
+      </div>
 			</nav>
     
     <article>
         <div class="Todo">
-            <h2>Info Pedido</h2>
+            <h3>Información Pedido</h3>
             <div class="DetallesPedido">
-                <h3>Detalles de pedido</h3>
-                <h4>IdPedido</h4>
-                <h4>Fecha Compra</h4>
+                <h5>Detalles de pedido</h5>
+                <h6>IdPedido</h6>
+                <h6>Fecha Compra</h6>
             </div>
-            <div class="PedidoDesglozado">
-                <table BORDER=1>
-                    <tr>
-                      <th>SKU</th>
-                      <th>Nombre Prod</th>
-                      <th>Autor</th>
-                      <th>Cantidad</th>
-                      <th>Precio</th>
-                    </tr>
-                    <tr>
-                      <td>123</td>
-                      <td>abcd</td>
-                      <td>meta</td>
-                      <td>1</td>
-                      <td>99</td>
-                    </tr>
-                    <tr>
-                      <td>456</td>
-                      <td>defg</td>
-                      <td>Mega</td>
-                      <td>2</td>
-                      <td>78</td>
-                    </tr>
-                    <tr>
-                      <td>789</td>
-                      <td>hijk</td>
-                      <td>iron</td>
-                      <td>6</td>
-                      <td>76</td>
-                    </tr>
 
-                    <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td>Sub-Total</td>
-                        <td>1100.67</td>
-                    </tr>
-                    <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td>IVA(16%)</td>
-                        <td>309.67</td>
-                    </tr>
-                    <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td>SuperTotal</td>
-                        <td>1509.67</td>
-                    </tr>
-                  </table>
-            </div>  
+            <div class="ProductosCarrito">
+              <table>
+                  <tr>
+                    <th>SKU</th>
+                    <th>NombreProducto</th>
+                    <th>Autor</th>
+                    <th>IdProducto </th>
+                    <th>Cantidad </th>
+                    <th> Precio</th>
+                  </tr>
+                  <tr>
+                    <td> 23456</td>
+                    <td><img src="/Media/default-.jpg" alt="" width="15%" height="15%"></td>
+                    <td><a href="">Autor</a></td>
+                    <td><a href="">IdProducto</a></td>
+                    <td>3</td>
+                    <td>599.99$</td>
+                  </tr>
+                  <tr>
+                    <td>19°C</td>
+                    <td>17°C</td>
+                    <td>12°C</td>
+                  </tr>
+                  <tr class="Costos">
+                      <td rowspan="1" colspan="4" ></td>
+                      <td>Total: </td>
+                      <td>99999$</td>
+                  </tr>
+                  <tr class="Costos">
+                      <td rowspan="1" colspan="4" ></td>
+                      <td>IVA(16%): </td>
+                      <td>15$</td>
+                  </tr>
+                  <tr class="Costos">
+                      <td rowspan="1" colspan="4" ></td>
+                      <td>Super Total:</td>
+                      <td>150$</td>
+                  </tr>
+                </table>
+          </div>
         </div>
 <br>
         <footer>

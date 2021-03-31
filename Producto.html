@@ -17,7 +17,7 @@
 </head>
 <body>
     <nav id ="EjNav">
-        <img src="/Media/default-.jpg" alt="" width="90" height="72" id="ImgLogo">
+        <img src="/Media/Identificador.PNG" alt="" width="90" height="72" id="ImgLogo">
           <a href="#">Inicio</a>
           <a href="#">Preguntas frecuentes</a>
           <a href="#">Preguntas populares</a>
@@ -46,9 +46,21 @@
           <p>Usuario</p>
           <img src="/Media/default-.jpg" alt="" width="90" height="72">
         </div>
-			</nav>
+        <!-- con un boolean saber si esta loogeado y saber cual mostrar-->
+        <div class="BotonLogin">
+          <div class="btn">
+              <button>SignUp</button>
+              <button>Login</button>
+          </div>
+      </div>
 
+			</nav>
             <article>
+              <div class="SeparadorHeaderYcuerpo">
+                <hr>
+              </div>
+              
+
                 <div class="Todo">
                     <div class="InfoProducto">
                       <img src="/Media/default-.jpg" alt="" width="300" height="300">
@@ -60,11 +72,15 @@
                           <h4>Precio</h4>
                           <div class="aumentarreducirprod">
                             <button>-</button>
-                            <input type="number" name="" id="" min="1" max="10">
+                            
+                            <input type="text" class="js--num" value="1" min="1" data-id="" aria-label="quantity" pattern="[0-9]*" name="quantity" id="quantity">
+                            <!-- <input type="number" name="" id="" min="1" max="10">-->
+                           
                             <button>+</button>
-                          </div>
+                          </div>  
+                          <br>
                           <div id="btnAddCarr">
-                            <button>Add to cart</button>
+                            <button><i style='font-size:24px' class='fas'>&#xf217;</i>Add to cart</button>
                           </div>
                       </div>
                       <br>
@@ -76,8 +92,8 @@
 
                     <div class="InfoextraProducto">
                       <div class="cabecera">
-                        <a href=""><h4>Descripción</h4></a>
-                        <a href=""> <h4>Artistas similares</h4></a>
+                        <button><h4>Descripción</h4></button>
+                        <button><h4>Artistas similares</h4></button>
                         <hr>
                       </div>
                       <div class="contenido">
@@ -90,6 +106,8 @@
                       </div>
                     </div>
 
+                    <br>
+                    <hr>
                     <div id="ProductosSimilares">
                       <div class="cards">
                         <div class="img"><img src="/Media/default-.jpg" alt=""></div>

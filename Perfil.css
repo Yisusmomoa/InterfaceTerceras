@@ -43,7 +43,9 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background-color: #979797;
+    background-color: #96BFFF;
+    border-radius: 5px;
+    border-style:hidden;
   }
 
 
@@ -58,25 +60,23 @@
     cursor: pointer;
 }
 #EjNav a:hover {
-  background-color: #979797;
+  background-color: #96BFFF;
+  
+  border-radius: 5px;
+  border-style:hidden;
 }
-
 #SeccionCarrito{
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    background-color: #f1f1f1;
-    position:absolute;
-    right:150px;
-    top: 0;
-    
+  background-color: #f1f1f1;
+  position:absolute;
+  right:150px;
+  top: 80%;
+  
 }
 #SeccionCarrito a  {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
+
 
 #Busqueda {
   bottom: 85px;
@@ -87,17 +87,17 @@
 
  #Busqueda a{
      
-   position:absolute;
-   top: 30px;
-    font-size: 10px;
-    text-decoration: none;
-    color: black;
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 1px;
-    margin: 1px;
-    background-color: #f1f1f1;
+  position:absolute;
+  top: 30px;
+   font-size: 10px;
+   text-decoration: none;
+   color: black;
+   /*box*/
+   width: 100px;
+   border: 1px solid black;
+   padding: 1px;
+   margin: 1px;
+   background-color: #f1f1f1;
 }
 /*
 https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
@@ -113,7 +113,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   
   }
   body{
-   background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
   }
   
   nav{
@@ -121,9 +121,10 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: rgb(177, 177, 177);
+   background-color: #f0f0f0;
     top: 0px;
     color: rgb(2, 1, 1);
+    border-radius: 15px;
   }
   
 
@@ -134,7 +135,8 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  rgb(228, 228, 228);
+    background:  #c5cddd;
+    /*background:  #f8e2e2c0;*/
   }
 
   .Paste{
@@ -151,35 +153,26 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   bottom:0;
 }
 
-
 .InfoUsuarioNav{
-    position: absolute;
-    top: 0;
-    left: 90%;
-
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+  position: absolute;
+  top: 0;
+  left: 90%;
+  padding: 3px;
+  margin: 3px;
+ 
 }
 .InfoUsuarioNav:hover{
-  cursor: pointer;
+cursor: pointer;
+ /*box*/
+ width: 100px;
+ border: 3px solid #6D98DE;
 }
-
 
 
 
 /*CUERPO*/
 
 
-.Todo>.Header2 {
-     /*box*/
-     width: auto;
-     border: 1px solid black;
-     padding: 5px;
-     margin: 5px;
-}
 .Todo>.Header2 a{
     text-decoration: rgb(0, 0, 0);
     color: rgb(0, 0, 0); 
@@ -191,25 +184,74 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     display: inline;
     position: relative;
      /*box*/
-     width: auto;
-     border: 0.1px solid black;
-     padding: 0.1px;
-     margin: 0.1px;
+    width: auto;
+    border: 0.1px solid black;
+    padding: 0.1px;
+    margin: 0.1px;
 }
 
 .Todo>.Header2 h5:hover{
     transform: scale(0.9);
     background-color: aqua;
 }
-
-
-
-.Activity .InfoPedido .Info1{
-  background-color: #a7a7a7;
-
+.Profile img{
+    border: 1.1px solid black;
+    padding: 1.1px;
+    margin: 1.1px;
+    position: relative;
+    left: 5%;
 }
 
 
+/*botones*/
+.Header2 .btn{
+  display: block;
+  text-align: left;
+  position:relative;
+  left: 0%;
+}
+
+.Header2 .btn button{
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.Header2 .btn button:hover{
+  transform: scale(0.9);
+  background-color: #96BFFF;
+}
+
+/*Paginación*/
+
+
+/* Pagination links */
+
+.pagination a {
+  font-size: 20px;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  position:relative;
+  left: 35%;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color:#6D98DE;}
 
 
 /*footer*/

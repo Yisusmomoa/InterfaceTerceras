@@ -40,11 +40,14 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+    border-radius: 1px;
   } 
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background-color: #979797;
+    background-color: #96BFFF;
+    border-radius: 5px;
+    border-style:hidden;
   }
 
 
@@ -59,24 +62,23 @@
     cursor: pointer;
 }
 #EjNav a:hover {
-  background-color: #979797;
+  background-color: #96BFFF;
+  
+  border-radius: 5px;
+  border-style:hidden;
 }
 
+
 #SeccionCarrito{
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    background-color: #f1f1f1;
-    position:absolute;
-    right:150px;
-    top: 0;
-    
+  background-color: #f1f1f1;
+  position:absolute;
+  right:150px;
+  top: 80%;
+  
 }
 #SeccionCarrito a  {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #Busqueda {
@@ -122,10 +124,12 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: rgb(177, 177, 177);
+   background-color: #f0f0f0;
     top: 0px;
     color: rgb(2, 1, 1);
+    border-radius: 15px;
   }
+  
   
 
   article{
@@ -135,14 +139,16 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  rgb(228, 228, 228);
+    background:  #ffffff;
+    /*background:  #f8e2e2c0;
+     background:  #c5cddd;
+    */
   }
 
   .Paste{
     position: fixed;
     top: 0;
   }
-
 
 .Todo{
   
@@ -154,41 +160,87 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 
 
 .InfoUsuarioNav{
-    position: absolute;
-    top: 0;
-    left: 90%;
-
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+  position: absolute;
+  top: 0;
+  left: 90%;
+  padding: 3px;
+  margin: 3px;
+ 
 }
 .InfoUsuarioNav:hover{
-  cursor: pointer;
+cursor: pointer;
+ /*box*/
+ width: 100px;
+ border: 3px solid #6D98DE;
 }
 
+/*Login y signup*/
+.BotonLogin .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  position: absolute;
+  right: 0%;
+}
 
+.BotonLogin .btn button{
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.BotonLogin .btn button:hover{
+  transform: scale(0.9);
+  background-color: #96BFFF;
+}
 
 /*Cuerpo*/
 
+.SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
+
+
+.InfoProducto img{
+  margin: auto;
+  padding: 1%;
+  border-radius: 10px;
+}
+
 .InfoProducto .texto{
-background-color:rgb(173, 173, 173);
+  background-color: rgba(201, 201, 201, 0.11);
 width: 50%;
 position:absolute;
 left:30%;
 top: 3%;
-border-radius: 5px;
+border-radius: 10px;
 
 }
 
 .InfoProducto div.texto a{
 text-decoration: none;
-color: black
+color: #6D98DE;
 }
+/*
+
+#3580FA
+#96BFFF
+#6D98DE
+#916F2A
+#DEB96D
+*/
+
+
+
+
+
 
 .InfoProducto div.texto #btnAddCarr button{
-  background-color: #4b4b4b; /* Green */
+  background-color: #96BFFF; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -196,11 +248,23 @@ color: black
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  width: 100%;
 }
 
+.InfoProducto div.texto #btnAddCarr button:hover{
+  background-color: #3580FA;
+}
 
+.InfoProducto div.texto a:hover {
+  color: #DEB96D;
+  cursor:pointer;
+  transform: scale(1.1);
+}
 
-
+.js--num{
+  width: 5%;
+  
+}
 
 .InfoextraProducto{
    /*box*/
@@ -258,16 +322,17 @@ color: black
 }
 
 #ProductosSimilares .cards .content .title{
- font-size: 25px;
- font-weight: 600;
+  font-size: 25px;
+  font-weight: 600;
+  color: #6D98DE;
 
 }
 
 #ProductosSimilares .cards .content .sub-title{
   font-size: 20px;
-  font-weight: 600;
-  color: #e74c3c;
-  line-height: 20px;
+    font-weight: 600;
+    color: #6D98DE;
+    line-height: 20px;
 
 }
 
@@ -284,16 +349,28 @@ color: black
    margin: 10px 0;
 }
 
+
+#ProductosSimilares .cards .content .title:hover{
+  color: #DEB96D;
+  cursor:pointer;
+  transform: scale(1.1);
+}
+#ProductosSimilares .cards .content .sub-title:hover{
+  color: #DEB96D;
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
 #ProductosSimilares .cards .content .btn button{
-   background: #e74c3c;
-   color: #fff;
-   border: none;
-   outline: none;
-   font-size: 17px;
-   padding: 5px 8px;
-   border-radius: 5px;
-   cursor: pointer;
-   transition: 0.2s;
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 #ProductosSimilares .cards .content .btn button:hover{

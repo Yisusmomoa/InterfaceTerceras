@@ -43,7 +43,9 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background-color: #979797;
+    background-color: #96BFFF;
+    border-radius: 5px;
+    border-style:hidden;
   }
 
 
@@ -58,24 +60,22 @@
     cursor: pointer;
 }
 #EjNav a:hover {
-  background-color: #979797;
+  background-color: #96BFFF;
+  
+  border-radius: 5px;
+  border-style:hidden;
 }
 
 #SeccionCarrito{
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    background-color: #f1f1f1;
-    position:absolute;
-    right:150px;
-    top: 0;
-    
+  background-color: #f1f1f1;
+  position:absolute;
+  right:150px;
+  top: 80%;
+  
 }
 #SeccionCarrito a  {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #Busqueda {
@@ -87,17 +87,17 @@
 
  #Busqueda a{
      
-   position:absolute;
-   top: 30px;
-    font-size: 10px;
-    text-decoration: none;
-    color: black;
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 1px;
-    margin: 1px;
-    background-color: #f1f1f1;
+  position:absolute;
+  top: 30px;
+   font-size: 10px;
+   text-decoration: none;
+   color: black;
+   /*box*/
+   width: 100px;
+   border: 1px solid black;
+   padding: 1px;
+   margin: 1px;
+   background-color: #f1f1f1;
 }
 /*
 https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
@@ -121,9 +121,10 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: rgb(177, 177, 177);
+   background-color: #f0f0f0;
     top: 0px;
     color: rgb(2, 1, 1);
+    border-radius: 15px;
   }
   
 
@@ -134,7 +135,8 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  rgb(228, 228, 228);
+    background:  #c5cddd;
+    /*background:  #f8e2e2c0;*/
   }
 
   .Paste{
@@ -144,7 +146,6 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 
 
 .Todo{
-  
   border-radius: 10px;
   background-color:transparent;
   position:initial;
@@ -153,18 +154,44 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 
 
 .InfoUsuarioNav{
-    position: absolute;
-    top: 0;
-    left: 90%;
-
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+  position: absolute;
+  top: 0;
+  left: 90%;
+  padding: 3px;
+  margin: 3px;
+ 
 }
 .InfoUsuarioNav:hover{
+cursor: pointer;
+ /*box*/
+ width: 100px;
+ border: 3px solid #6D98DE;
+}
+
+/*Login y signup*/
+.BotonLogin .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  position: absolute;
+  right: 0%;
+}
+
+.BotonLogin .btn button{
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.BotonLogin .btn button:hover{
+  transform: scale(0.9);
+  background-color: #96BFFF;
 }
 
 /*CUERPO*/
@@ -176,7 +203,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   height: 100%;
   place-items: center;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #868686;
 
   max-width: 1150px;
   display: flex;
@@ -206,7 +233,48 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 .Autores .cards .content .title{
  font-size: 25px;
  font-weight: 600;
+ color: #6D98DE;
 
+}
+
+.Autores .cards .content .title:hover{
+   color: #DEB96D;
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+
+
+.CabeceraProductos{
+  background-color: #c4c4c459;
+  border-radius: 5px;
+}
+.CabeceraProductos a{
+  text-decoration: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); 
+  
+}
+.CabeceraProductos h5{
+  display: inline;
+  
+}
+
+.CabeceraProductos a:hover{
+  color: rgb(177, 177, 177);
+}
+.CabeceraProductos .ordenarportuptm h6{
+  display: inline;
+  position: relative;
+}
+
+.CabeceraProductos .ordenarportuptm {
+  text-align: right;
+  position: relative;
+  bottom: 20px;
+}
+
+.CabeceraProductos .ordenarportuptm select{
+ 
 }
 
 

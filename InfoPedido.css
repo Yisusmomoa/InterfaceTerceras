@@ -43,7 +43,9 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background-color: #979797;
+    background-color: #96BFFF;
+    border-radius: 5px;
+    border-style:hidden;
   }
 
 
@@ -58,24 +60,23 @@
     cursor: pointer;
 }
 #EjNav a:hover {
-  background-color: #979797;
+  background-color: #96BFFF;
+  
+  border-radius: 5px;
+  border-style:hidden;
 }
 
+
 #SeccionCarrito{
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    background-color: #f1f1f1;
-    position:absolute;
-    right:150px;
-    top: 0;
-    
+  background-color: #f1f1f1;
+  position:absolute;
+  right:150px;
+  top: 80%;
+  
 }
 #SeccionCarrito a  {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #Busqueda {
@@ -121,9 +122,10 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: rgb(177, 177, 177);
+   background-color: #f0f0f0;
     top: 0px;
     color: rgb(2, 1, 1);
+    border-radius: 15px;
   }
   
 
@@ -134,7 +136,8 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  rgb(228, 228, 228);
+    background:  #dcdee0a9;
+    /*background:  #f8e2e2c0;*/
   }
 
   .Paste{
@@ -153,94 +156,87 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 
 
 .InfoUsuarioNav{
-    position: absolute;
-    top: 0;
-    left: 90%;
-
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+  position: absolute;
+  top: 0;
+  left: 90%;
+  padding: 3px;
+  margin: 3px;
 }
 .InfoUsuarioNav:hover{
   cursor: pointer;
+  /*box*/
+  width: 100px;
+  border: 3px solid #6D98DE;
 }
 
 
+/*Login y signup*/
+.BotonLogin .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  position: absolute;
+  right: 0%;
+}
+
+.BotonLogin .btn button{
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.BotonLogin .btn button:hover{
+  transform: scale(0.9);
+  background-color: #96BFFF;
+}
 
 
-
-/* spacing */
+.Todo H3{
+  
+  background-color: #96beff5b;
+  border-radius: 6px;
+}
+.DetallesPedido{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 60px;
+}
+.DetallesPedido h5{
+  background-color: transparent;
+  border: 0.1px solid rebeccapurple;
+  padding: .5em;
+  border-radius: 6px;
+}
 
 table {
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-    border: 3px solid purple;
-  }
-  
-  thead th:nth-child(1) {
-    width: 10%;
-  }
-  
-  thead th:nth-child(2) {
-    width: 20%;
-  }
-  
-  thead th:nth-child(3) {
-    width: 15%;
-    background-color: #47b1fd;
-  }
-  
-  thead th:nth-child(4) {
-    width: 35%;
-  }
-  
-  th, td {
-    padding: 10px;
-    border: 3px solid rgb(0, 0, 0);
-  }
-  thead th:nth-child(5) {
-    width: 95%;
-    background-color: crimson;
-  }
-
-.PedidoDesglozado tr:nth-child(5) {
-   text-align: right;
-   width: 100px;
-    color:#F00;
+    
+  width: 100%;
+  border: 1px solid #000;
 }
-
-
-
-  /* typography */
-
-html {
-    font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  }
+th, td {
+   
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-spacing: 0;
+  border-collapse: collapse;
+  padding: 0.3em;
+}
+caption {
+  padding: 10.3em;
+}
+.Costos{
   
-  thead th, tfoot th {
-    font-family: 'Rock Salt', cursive;
-  }
-  
-  th {
-    letter-spacing: 2px;
-  }
-  
-  td {
-    letter-spacing: 1px;
-  }
-  
-  tbody td {
-    text-align: left;
-  }
-  
-  tfoot th {
-    text-align: center;
-  }
-
-
+  color: darkcyan;
+}
 
 
 
