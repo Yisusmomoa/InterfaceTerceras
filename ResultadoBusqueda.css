@@ -145,7 +145,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  #e4e4e4;
+    background:  #ffffff;
   }
 
   .Paste{
@@ -161,6 +161,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   position:initial;
   bottom:0;
 }
+.SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
 
 
 .InfoUsuarioNav{
@@ -178,7 +179,66 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
    border: 3px solid #6D98DE;
 }
 
+
+/*Login y signup*/
+.BotonLogin .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  position: absolute;
+  right: 0%;
+}
+
+.BotonLogin .btn button{
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.BotonLogin .btn button:hover{
+  transform: scale(0.9);
+  background-color: #96BFFF;
+}
+
+
 /*CUERPO*/
+.CabeceraProductos{
+  background-color: #c4c4c459;
+  border-radius: 5px;
+}
+.CabeceraProductos a{
+  text-decoration: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); 
+  
+}
+.CabeceraProductos h5{
+  display: inline;
+  
+}
+
+.CabeceraProductos a:hover{
+  color: rgb(177, 177, 177);
+}
+.CabeceraProductos .ordenarportuptm h6{
+  display: inline;
+  position: relative;
+}
+
+.CabeceraProductos .ordenarportuptm {
+  text-align: right;
+  position: relative;
+  bottom: 20px;
+}
+
+.CabeceraProductos .ordenarportuptm select{
+ 
+}
 
 
 #Productos{
@@ -217,25 +277,36 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 }
 
 #Productos .cards .content .title{
-   font-size: 25px;
-   font-weight: 600;
+  font-size: 25px;
+  font-weight: 600;
+  color: #6D98DE;
 
 }
 
 #Productos .cards .content .sub-title{
-    font-size: 20px;
-    font-weight: 600;
-    color: #e74c3c;
-    line-height: 20px;
-
+  font-size: 20px;
+  font-weight: 600;
+  color: #6D98DE;
+  line-height: 20px;
  }
+
+ 
+#Productos .cards .content .title:hover{
+  color: #DEB96D;
+  cursor:pointer;
+  transform: scale(1.1);
+}
+#Productos .cards .content .sub-title:hover{
+  color: #DEB96D;
+  cursor:pointer;
+  transform: scale(1.1);
+}
 
  #Productos .cards .content p{
      text-align: justify;
      margin: 10px 0;
 
  }
-
 
  #Productos .cards .content .btn{
      display: block;
@@ -244,15 +315,16 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
  }
 
  #Productos .cards .content .btn button{
-     background: #e74c3c;
-     color: #fff;
-     border: none;
-     outline: none;
-     font-size: 17px;
-     padding: 5px 8px;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: 0.2s;
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-left: 5%;
  }
 
  #Productos .cards .content .btn button:hover{

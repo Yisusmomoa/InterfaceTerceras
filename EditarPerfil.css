@@ -200,220 +200,76 @@ cursor: pointer;
   background-color: #96BFFF;
 }
 
-/*Cuerpo*/
+.BotonLogin .btn button{
+    background: #3580FA;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
 
 .SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
 
 
-.InfoProducto img{
-  margin: auto;
-  padding: 1%;
-  border-radius: 30px;
+
+/*CUERPO*/
+
+.InfoTexto{
+    position:absolute;
+    right: 40%;
+    bottom: 60%;
 }
 
-.InfoProducto .texto{
-  background-color: rgba(201, 201, 201, 0.11);
-width: 50%;
-position:absolute;
-left:30%;
-top: 3%;
-border-radius: 10px;
-box-shadow: 0px 0px 10px 2px rgb(165, 165, 165);
-}
-
-.InfoProducto div.texto a{
-text-decoration: none;
-color: #6D98DE;
-}
-/*
-
-#3580FA
-#96BFFF
-#6D98DE
-#916F2A
-#DEB96D
-*/
-
-
-
-
-
-
-.InfoProducto div.texto #btnAddCarr button{
-  background-color: #96BFFF; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.InfoProducto div.texto #btnAddCarr button:hover{
-  background-color: #3580FA;
-  
-}
-
-.InfoProducto div.texto a:hover {
-  color: #DEB96D;
-  cursor:pointer;
-  transform: scale(1.1);
-
-}
-
-.js--num{
-  width: 5%;
-  
-}
 .BotonInfoExtra .btn{
-  display: block;
-  text-align: left;
-  margin: 10px 0px;
-  position: absolute;
-  left: 0%;
-}
-
-.BotonInfoExtra button{
-  background: #3580FA;
-  color: #fff;
-  border: none;
-  outline: none;
-  font-size: 17px;
-  padding: 5px 8px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.2s;
-  margin-left: 5%;
-}
-
-.BotonInfoExtra button:hover{
-  transform: scale(0.9);
+    display: block;
+    text-align: left;
+    margin: 10px 0px;
+    position: absolute;
+    left: 0%;
+  }
+  .BotonInfoExtra #cancel{
+    background: #ffffff;
+    color: #3580FA;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    left: 0%;
+    
+  }
+  .BotonInfoExtra button{
+    background: #3580FA;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    left: 0%;
+    
+  }
   
-}
-
-
-
-.InfoextraProducto{
-   /*box*/
-   width: 50%;
-   border: 1px solid black;
-   padding: 5px;
-   margin: 5px;
+  .BotonInfoExtra button:hover{
+    transform: scale(0.9);
+    
+  }
   
-}
-.InfoextraProducto a{
-  text-decoration: none;
-color: black
-}
 
-.InfoextraProducto .cabecera>a>h4{
-  text-align: center;
-  margin: 3px;
-  margin-left: 70px;
-  display:inline-block;
-}
-
-
-/*productos similares*/
-
-#ProductosSimilares{
-  display: grid;
-  height: 100%;
-  place-items: center;
-  text-align: center;
-  background-color: #f2f2f2;
-
-  max-width: 1150px;
-  display: flex;
-}
-
-#ProductosSimilares .cards{
-  background-color: rgb(255, 255, 255);
-  flex: 1;
-  margin: 0 10px;
-}
-
-#ProductosSimilares .cards .img {
-  height: 150px;
-  width: 100%;
-}
-#ProductosSimilares .cards .img img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-#ProductosSimilares .cards .content{
-  padding: 10px 20px;
-
-}
-
-#ProductosSimilares .cards .content .title{
-  font-size: 25px;
-  font-weight: 600;
-  color: #6D98DE;
-
-}
-
-#ProductosSimilares .cards .content .sub-title{
-  font-size: 20px;
-    font-weight: 600;
-    color: #6D98DE;
-    line-height: 20px;
-
-}
-
-#ProductosSimilares .cards .content p{
-   text-align: justify;
-   margin: 10px 0;
-
-}
-
-
-#ProductosSimilares .cards .content .btn{
-   display: block;
-   text-align: left;
-   margin: 10px 0;
-}
-
-
-#ProductosSimilares .cards .content .title:hover{
-  color: #DEB96D;
-  cursor:pointer;
-  transform: scale(1.1);
-}
-#ProductosSimilares .cards .content .sub-title:hover{
-  color: #DEB96D;
-  cursor:pointer;
-  transform: scale(1.1);
-}
-
-#ProductosSimilares .cards .content .btn button{
-  background: #3580FA;
-  color: #fff;
-  border: none;
-  outline: none;
-  font-size: 17px;
-  padding: 5px 8px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-#ProductosSimilares .cards .content .btn button:hover{
-   transform: scale(0.9);
-
-}
+ 
+/*FOOTER*/
 
 
 
-
-
-/*footer*/
 
 
 

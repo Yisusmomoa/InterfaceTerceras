@@ -145,7 +145,7 @@ https://www.mclibre.org/consultar/amaya/css/css-hr.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  #c5cddd;
+    background:  #ffffff;
     /*background:  #f8e2e2c0;*/
   }
 
@@ -209,6 +209,10 @@ https://www.mclibre.org/consultar/amaya/css/css-hr.html
 
 
 /*CUERPO*/
+
+.SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
+
+
 
 
 #Novedades{
@@ -276,6 +280,8 @@ html,body{
 
 #Novedades{
     background-color: #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(165, 165, 165);
 }
 #Novedades .slider{
     display: grid;
@@ -283,7 +289,6 @@ html,body{
     place-items: center;
     text-align: center;
     background-color: #f2f2f2;
-
     max-width: 1150px;
     display: flex;
 }
@@ -394,6 +399,8 @@ html,body{
  /*Cards*/
  /*BestSellers*/
  #BestSellers{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(165, 165, 165);
     display: grid;
     height: 100%;
     place-items: center;
@@ -488,7 +495,8 @@ html,body{
     place-items: center;
     text-align: center;
     background-color: #f2f2f2;
-
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(165, 165, 165);
     max-width: 1150px;
     display: flex;
  }
@@ -579,7 +587,8 @@ html,body{
     place-items: center;
     text-align: center;
     background-color: #f2f2f2;
-
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(165, 165, 165);
     max-width: 1150px;
     display: flex;
  }
