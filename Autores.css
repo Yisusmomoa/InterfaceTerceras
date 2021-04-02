@@ -135,7 +135,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  #c5cddd;
+    background:  #ffffff;
     /*background:  #f8e2e2c0;*/
   }
 
@@ -197,6 +197,10 @@ cursor: pointer;
 
 
 /*CUERPO*/
+
+.SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
+
+
 .CabeceraProductos{
   background-color: #c4c4c459;
   border-radius: 5px;
@@ -275,9 +279,17 @@ cursor: pointer;
 .Autores .cards .content .title{
  font-size: 25px;
  font-weight: 600;
-
+ 
+}
+.Autores .cards .content .title a{
+  text-decoration: none;
+  color: #6D98DE;
 }
 
+.Autores .cards .content .title a:hover{
+  color: #DEB96D;
+  cursor:pointer;
+}
 
 /*Paginación*/
 

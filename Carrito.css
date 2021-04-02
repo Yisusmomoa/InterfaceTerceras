@@ -146,6 +146,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     margin-left: -40%;
     top: 220px;
     background:  #e4e4e4;
+    background:  #ffffff;
   }
 
   .Paste{
@@ -204,12 +205,16 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 .BotonLogin .btn button:hover{
   transform: scale(0.9);
   background-color: #96BFFF;
+  
 }
 
 
 
-
 /*CUERPO*/
+.SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
+
+
+
 table {
     
     width: 100%;

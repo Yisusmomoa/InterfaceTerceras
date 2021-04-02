@@ -134,7 +134,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  #c5cddd;
+    background:  #ffffff;
   }
 
   .Paste{
@@ -194,6 +194,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 }
 
 /*CUERPO*/
+.SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
 
 *{
     margin: 0;
@@ -282,6 +283,7 @@ main{
     width: 100%;
     padding: 80px 20px;
     background: white;
+    background-color: #3580fa8e;
     position: absolute;
     border-radius: 20px;
 

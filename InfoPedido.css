@@ -136,7 +136,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  #dcdee0a9;
+    background:  #ffffff;
     /*background:  #f8e2e2c0;*/
   }
 
@@ -195,6 +195,9 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   transform: scale(0.9);
   background-color: #96BFFF;
 }
+
+/*CUERPO*/
+.SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
 
 
 .Todo H3{

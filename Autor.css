@@ -135,7 +135,7 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
     left: 50%;
     margin-left: -40%;
     top: 220px;
-    background:  #c5cddd;
+    background:  #ffffff;
     /*background:  #f8e2e2c0;*/
   }
 
@@ -202,10 +202,12 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
 
 
 /*CUERPO*/
+.SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
 
 .Todo .InfoAutor>img{
     margin: 10px;
     margin-left: 10px;
+    border-radius: 10px;
 }
 
 .CabeceraProductos{
