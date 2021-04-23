@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/InfoPedido.css">
+    <link rel="stylesheet" href="Login-SignUp.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
-    <title>InformaciónPedido</title>
+    <title>LogIn</title>
     <style>
       * {
         font-family:sans-serif;
@@ -23,11 +22,11 @@
 </head>
 <body>
     <nav id ="EjNav">
-        <img src="/Media/Identificador.PNG" alt="" width="90" height="72" id="ImgLogo">
+        <img src="Media/Identificador.PNG" alt="" width="90" height="72" id="ImgLogo">
         <a href="#">Inicio</a>
         <a href="#">Autores</a>
         <a href="#">Productos</a>
-        <a href="#">Carrito</a>  
+        <a href="#">Carrito</a>   
           <div class="dropdown">
             <button class="dropbtn">Categorias</button>
             <div class="dropdown-content">
@@ -50,7 +49,7 @@
         
         <div class="InfoUsuarioNav">
           <p>Usuario</p>
-          <img src="/Media/default-.jpg" alt="" width="90" height="72">
+          <img src="Media/default-.jpg" alt="" width="90" height="72">
         </div>
          <!-- con un boolean saber si esta loogeado y saber cual mostrar-->
          <div class="BotonLogin">
@@ -60,61 +59,51 @@
           </div>
       </div>
 			</nav>
-    
     <article>
-        <div class="SeparadorHeaderYcuerpo">
-          <hr>
-        </div>
-        <div class="Todo">
-            <h3>Información Pedido</h3>
-            <div class="DetallesPedido">
-                <h5>Detalles de pedido</h5>
-                <h6>IdPedido</h6>
-                <h6>Fecha Compra</h6>
+      <div class="SeparadorHeaderYcuerpo">
+        <hr>
+      </div>
+        <main>
+            <div class="contenedorTodo">
+                <div class="CajaTrasera">
+                    <div class="CajaTraseraLogin">
+                        <h3>Ya tienes una cuenta?</h3>
+                        <p>Inicia sesión para entrar a la página</p>
+                        <button id="BtnIniciarSesion" >Iniciar Sesión </button>
+                    </div>
+                    <div class="CajaTraseraRegistro">
+                        <h3>Aún no tienes una cuenta?</h3>
+                        <p>Registrate para que puedas iniciar sesión</p>
+                        <button id="BtnRegistrarse">Registrarse</button>
+                    </div>
+                </div>
+                <div class="ContenedorLoginRegistro">
+                    <form action="" class="FormularioLogin">
+                        <h2>Iniciar sesión</h2>
+                        <input type="text" name="" id="" placeholder="Correo Electronico">
+                        <input type="password" name="" id="" placeholder="Contraseña">
+                        <button>Entrar</button>
+                    </form>
+    
+                    <form action="" class="FormularioRegistro">
+                        <h2>Registrarse</h2>
+                        <input type="text" name="" id="" placeholder="Nombre Completo">
+                        <input type="text" name="" id="" placeholder="Correo Electronico">
+                        <input type="text" name="" id="" placeholder="Usuario">
+                        <input type="text" name="" id="" placeholder="Contraseña">
+                        <button >Registrarse</button>
+                        
+                    </form>
+                </div>
+    
             </div>
+    
+        </main>
 
-            <div class="ProductosCarrito">
-              <table>
-                  <tr>
-                    <th>SKU</th>
-                    <th>NombreProducto</th>
-                    <th>Autor</th>
-                    <th>IdProducto </th>
-                    <th>Cantidad </th>
-                    <th> Precio</th>
-                  </tr>
-                  <tr>
-                    <td> 23456</td>
-                    <td><img src="/Media/default-.jpg" alt="" width="15%" height="15%"></td>
-                    <td><a href="">Autor</a></td>
-                    <td><a href="">IdProducto</a></td>
-                    <td>3</td>
-                    <td>599.99$</td>
-                  </tr>
-                  <tr>
-                    <td>19°C</td>
-                    <td>17°C</td>
-                    <td>12°C</td>
-                  </tr>
-                  <tr class="Costos">
-                      <td rowspan="1" colspan="4" ></td>
-                      <td>Total: </td>
-                      <td>99999$</td>
-                  </tr>
-                  <tr class="Costos">
-                      <td rowspan="1" colspan="4" ></td>
-                      <td>IVA(16%): </td>
-                      <td>15$</td>
-                  </tr>
-                  <tr class="Costos">
-                      <td rowspan="1" colspan="4" ></td>
-                      <td>Super Total:</td>
-                      <td>150$</td>
-                  </tr>
-                </table>
-          </div>
-        </div>
-<br>
+        <br>
+        <br>
+        <br>
+        <br>
         <footer>
             <div class = "container-footer">
               <div class="Row-footer">
@@ -180,8 +169,9 @@
         </footer>
     </article>
 
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <script src="/InfoPedido.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+      <script src="Login-SignUp.js"></script>
 </body>
 </html>

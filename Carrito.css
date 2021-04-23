@@ -208,7 +208,31 @@ https://www.arkaitzgarro.com/css2/capitulo-5.html
   
 }
 
+.BotonLogin .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  position: absolute;
+  right: 0%;
+}
 
+.BotonLogin .btn a{
+  background: #3580FA;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.BotonLogin .btn a:hover{
+  transform: scale(0.9);
+  background-color: #96BFFF;
+  
+}
 
 /*CUERPO*/
 .SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}

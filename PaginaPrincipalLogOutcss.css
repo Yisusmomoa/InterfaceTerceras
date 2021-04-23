@@ -131,7 +131,7 @@ https://www.mclibre.org/consultar/amaya/css/css-hr.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: #f0f0f0;
+    background-color: #f0f0f0;
     top: 0px;
     color: rgb(2, 1, 1);
     border-radius: 15px;
@@ -189,7 +189,7 @@ https://www.mclibre.org/consultar/amaya/css/css-hr.html
     right: 0%;
 }
 
-.BotonLogin .btn button{
+.BotonLogin .btn a{
     background: #3580FA;
     color: #fff;
     border: none;
@@ -199,14 +199,80 @@ https://www.mclibre.org/consultar/amaya/css/css-hr.html
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s;
+    text-decoration: none;
 }
 
-.BotonLogin .btn button:hover{
-    transform: scale(0.9);
+.BotonLogin .btn a:hover{
+    transform: scale(0.1);
     background-color: #96BFFF;
 }
 
+.DashBoard{
+    column-count: 3;
+   
+}
 
+.DashBoard div{
+    background-color: transparent;
+    display: inline-block;
+   
+}
+
+.DashBoard img{
+    margin: 5px 5px;
+    width: 40%;
+    height: 40%;
+    border-radius: 1px;
+}
+
+
+.DashBoard .ProductoAleatorio{
+    border: 1px solid rgb(230, 230, 230);
+    
+}
+.DashBoard .ProductoAleatorio img{
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.DashBoard .OfertaDelDia{
+    border: 1px solid rgb(230, 230, 230);
+}
+.DashBoard .OfertaDelDia img{
+    width: 81%;
+    height: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.DashBoard .OfertaDelDia a{
+    text-decoration: none;
+    color: black;
+}
+.DashBoard .OfertaDelDia [p="Precio"]{
+    font-size:medium;
+    color: rgb(0, 0, 0);
+    text-decoration: line-through;
+}
+.DashBoard .OfertaDelDia H5{
+    font-size:large;
+    color: red;
+}
+
+
+.DashBoard .Categorias{
+    border: 1px solid rgb(230, 230, 230);
+}
+.DashBoard .Categorias img{
+    width: 46%;
+    height: 46%;
+   
+}
 
 /*CUERPO*/
 
@@ -252,7 +318,7 @@ https://www.mclibre.org/consultar/amaya/css/css-hr.html
 #6D98DE
 #916F2A
 #DEB96D
-
+https://www.campusmvp.es/recursos/post/columnas-responsive-html5-css3.aspx
 
 */
 
