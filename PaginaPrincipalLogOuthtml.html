@@ -18,7 +18,9 @@
         * {
           font-family:sans-serif;
         }
-      </style>
+    </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="/Zoom/jquery.wm-zoom-1.0.js"></script>
 </head>
 <body>
 
@@ -43,7 +45,7 @@
           <a href="">Busqueda Avanzada</a>
           <input type="search" name="Busqueda" >
         </div>
-        <div id="SeccionCarrito">
+        <!-- <div id="SeccionCarrito">
             <a href="">Carrito</a>
             <i class="fas fa-cart-arrow-down"></i>
         </div>
@@ -52,27 +54,49 @@
           <p>Usuario</p>
           <img src="/Media/default-.jpg" alt="" width="90" height="72">
         </div>
-        <!-- con un boolean saber si esta loogeado y saber cual mostrar-->
+         con un boolean saber si esta loogeado y saber cual mostrar-
         <div class="BotonLogin">
             <div class="btn">
                 <a href="">SignUp</a>
                 <a href="">Login</a>
                
             </div>
+        </div>  -->
+        
+
+        <div class="action">
+            <div class="profile" onclick="menuToggle();">
+                <img src="/Media/default-.jpg" alt="">
+            </div>
+            <div class="menu">
+                <h3>Someone famous <br><span>Website Designer</span> </h3>
+                <ul>
+                    <li>
+                        <img src="/Media/PerfilDefault.png" alt="" width="20px" height="20px"> <a href="">Perfil</a>
+                    </li>
+                    <li>
+                        <img src="" alt=""> <a href="">Carrito</a>
+                    </li>
+                    <li>
+                        <img src="" alt=""> <a href="">Logout</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+
 			</nav>
     <article>
         <div class="DashBoard" >
 
             <div class="ProductoAleatorio" >
                 <h4 style="text-align: center;">Producto aleatorio</h4>
-                <a href="Prods.html"><img src="/Media/default-.jpg" alt=""> </a> 
+               <a href="Prods.html"><img src="/Media/1.jpg" alt="" width="50px" height="50px"> </a> 
             </div>
 
             <div class="OfertaDelDia" >
                 <h4 style="text-align: center;">Oferta del día</h4>
                 <a href="">
-                    <img src="/Media/default-.jpg" alt="">
+                    <img src="/Media/1.jpg" alt="" width="50px" height="50px">
                     <h5 p="Precio">Precio</h5>
                     <h5 >Precio con descuento</h5>
                 </a>
@@ -81,12 +105,12 @@
             <div class="Categorias" width=50%>
                 <h4 style="text-align: center;">Categorias</h4>
                 <div class="part1">
-                    <a href=""> <img src="/Media/default-.jpg" alt=""></a>
-                    <a href=""><img src="/Media/default-.jpg" alt=""></a>
+                    <a href=""> <img src="/Media/1.jpg" alt="" width="50px" height="50px"></a>
+                    <a href=""><img src="/Media/default-.jpg" alt=""width="50px" height="50px"></a>
                 </div>
                 <div class="parte2">
-                    <a href=""> <img src="/Media/default-.jpg" alt=""></a>
-                    <a href=""> <img src="/Media/default-.jpg" alt=""></a>
+                    <a href=""> <img src="/Media/default-.jpg" alt=""width="50px" height="50px"></a>
+                    <a href=""> <img src="/Media/default-.jpg" alt=""width="50px" height="50px"></a>
                 </div>
             </div>
 
@@ -421,6 +445,8 @@
             autoplayHoverPause:true
         });
     </script>
+
+  
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
       <script src="/PaginaPrincipalLogOutjs.js"></script>

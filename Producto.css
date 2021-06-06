@@ -1,6 +1,7 @@
 
 /*NavBar*/
 
+
 .dropbtn {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -205,6 +206,10 @@ cursor: pointer;
 .SeparadorHeaderYcuerpo hr  {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
 
 
+
+
+
+
 .InfoProducto img{
   margin: auto;
   padding: 1%;
@@ -233,6 +238,30 @@ color: #6D98DE;
 #916F2A
 #DEB96D
 */
+
+
+/* these styles are for the demo, but are not required for the plugin */
+.InfoProducto .zoom {
+  display:inline-block;
+  position: relative;
+}
+
+/* magnifying glass icon */
+.InfoProducto .zoom:after {
+  content:'';
+  display:block; 
+  width:33px; 
+  height:33px; 
+  position:absolute; 
+  top:0;
+  right:0;
+}
+
+.InfoProducto .zoom img {
+  display: block;
+}
+
+.InfoProducto .zoom img::selection { background-color: transparent; }
 
 
 

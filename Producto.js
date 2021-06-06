@@ -13,3 +13,4 @@ function AddOrRemove(){
         Nav.classList.remove("Paste");
     }
 }
+
